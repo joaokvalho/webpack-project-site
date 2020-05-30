@@ -1,0 +1,61 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header{
+    margin-top: 10px;
+    &__logo{
+        max-width: 100px;
+    }
+}
+
+.button{
+    background-color: $color-background-default;
+    color: #5555;
+    border: 1px solid #eee;
+    padding: 10px 15px;
+    &__big{
+        padding: 15px 30px;
+    }
+    &--blue{
+        background-color: blue;
+        color: #fff;
+    }
+    &--red{
+        background-color: red;
+        color: #fff;
+    }
+}
+
+.card {
+    background-color: skyblue;
+    text-align: center;
+    &__title{
+        padding: 15px;
+    }
+    &__body{
+        padding: 10px;
+    }
+    &__footer{
+        padding: 15px;
+    }
+}
+
+.btn {
+    background-color: #cceecc;
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    &__info{
+        background-color: rgb(17, 121, 219);
+        color: #fff;
+    }
+    &__info:hover{
+        background-color: rgb(13, 98, 177)
+    }
+    &--lg{
+        padding: 20px 30px;
+    }    
+}

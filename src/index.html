@@ -4,26 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Site</title>
+
+    <!--Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap"
+        rel="stylesheet">
 </head>
 <body>
-    <header>
-        <ul>
-            <li>Home</li>
-            <li>Product</li>
-            <li>Prices</li>
-            <li>Blog</li>
-        </ul>
+    <header class="container header">
+        <img class="header__logo" src="./assets//img/logo.svg" alt="">
+
+        <h1>Front-end SAMPLE</h1>
+        <h2>Using Sass and Gulp</h2>
     </header>
 
-    <div class="paralax">
-        <img src="./assets/img/parallax-img.svg" alt="">
-    </div>
+    <main class="container">
+        <section>
+            <p>
+                Here's a quick set-up guide:
+            </p>
 
-    <button class="btn">Start resources</button>
+            <ul>
+                <li>Clone Git repo</li>
+                <li>Instaall by running "npm i" on the command line</li>
+                <li>Run "gulp" on the command line.</li>
+            </ul>
+        </section>
 
-    <footer class="footer">
-        <h2>Copyright &copy 2020 - joaokvalho@gmail.com</h2>
-    </footer>
+        <div class="card">
+            <div class="card__title">
+                <h3>Project info</h3>
+            </div>
+            <div class="card__body">
+                <p>This is a starter fron-end project which will compile SCSS with BEM and JS files using Gulp 4</p>
+            </div>
+            <div class="card__footer">
+                <button class="btn btn__info btn--lg" onclick="hello()">Test button</button>
+            </div>
+        </div>
+
+    </main>
 
 </body>
 </html>

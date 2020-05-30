@@ -1,4 +1,6 @@
-import { bro } from './bro';
-import './assets/scss/styles.scss';
+// Internal
+import './assets/css/theme-custom.css';
+import './assets/scss/style.scss';
 
-console.log(bro('Hello !'))
+// JS file
+import './assets/js/script.js';
