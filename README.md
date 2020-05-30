@@ -7,7 +7,7 @@ npm i
 
 # Start development environment
 
-npm run start:dev
+npm start
 
 # Start production environment
 
